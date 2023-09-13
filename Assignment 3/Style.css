@@ -1,0 +1,26 @@
+h1 {
+    color: darkred
+  }
+  h1 {
+    background-color: lightgrey;
+  }
+
+a:link {
+    color: darkred;
+  }
+  
+a:visited {
+    color: green;
+  }
+  
+a:hover {
+    color: goldenrod;
+  }        
+
+.Classes {
+  background-color: lightgrey;
+
+}
+.spanstyle {
+  color: darkred
+}
