@@ -1,0 +1,22 @@
+a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }        
+
+h1 {
+    color:white;
+}
+#title {
+    background-color: lightblue;
+}
+h2 {
+    color: blue;
+}
+.spanstyle {
+    color: gold;
+}
