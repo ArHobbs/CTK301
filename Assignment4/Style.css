@@ -1,0 +1,53 @@
+
+  h1 {
+    background-color: lightgrey;
+  }
+
+a:link {
+    color: darkred;
+  }
+  
+a:visited {
+    color: green;
+  }
+  
+a:hover {
+    color: goldenrod;
+  }        
+
+.Classes {
+  background-color: lightgrey;
+
+}
+.spanstyle {
+  color: darkred
+}
+
+.customtext {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.textcenter {
+  text-align: center;
+}
+.textjustify {
+  text-align: justify;
+}
+.h1customtext {
+  text-align: center;
+  font-family: Helvetica;
+  font-style: italic;
+  color: tomato;
+}
+
+.imgbox {
+  border: 6px solid black;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: gold;
+}
+
+body {
+  background-image: url(background.jpg);
+}  
