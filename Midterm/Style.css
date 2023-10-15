@@ -1,0 +1,88 @@
+body { background-color: #999999; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #2140be;
+  background-color: #ffffff;
+  display: grid; 
+  grid-template-columns: repeat (6, 1fr) ;}
+
+
+header {
+  grid-column: span 12;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: lightblue;
+  background-image: linear-gradient(to bottom, #5295ea, #3d81e1, #2c6cd7, #2257cc, #2140be);}
+    h1 a {
+        font-style: italic;
+        color: lightblue;
+        font-weight: lighter;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;}
+        h1 a:hover {color: white;}
+
+header ul {
+  list-style-type: none ;
+  margin: 2px;
+  padding: 2px;}
+header li {width: 200px;
+    display: inline-block;}
+header li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    color: lightblue;
+    background-image: linear-gradient(to bottom, #5295ea, #3d81e1, #2c6cd7, #2257cc, #2140be);
+    text-decoration: none;
+    text-align: center;}
+  header li a:hover {
+    color: white;
+    background-image: linear-gradient(to top, #5295ea, #3d81e1, #2c6cd7, #2257cc, #2140be);}
+
+
+main { grid-column: span 6;
+    Padding: 25px;}
+    main img div .gallery {grid-column: span 3;
+    width: 100 px;}
+    main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #2140be;
+    border-bottom: 3px solid #2140be;}
+    main a {
+        font-weight: bold;
+        color: red;
+        text-decoration: none;}
+        main a:hover {color:#2140be}
+    main img {
+        float: left;
+        border: 3px solid #2140be;
+        margin: 10px;}
+        div .right {float: right;}
+        
+        
+
+aside {
+    grid-column: span 2;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;}
+aside h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #2140be;
+    border-bottom: 3px solid #2140be;}
+
+footer {
+background-color: red;
+grid-column: span 8;
+padding: 10px;
+border-top: 4px solid #2140be;}
