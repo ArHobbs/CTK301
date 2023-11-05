@@ -1,0 +1,86 @@
+body { background-color: black;}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr 4fr 1fr;
+    grid-template-rows: 80px 70px 70px 140px 100px 40px 160px 50px;
+  background-image: url(BlueBackground.jpeg);
+  background-size: cover;}
+
+header {
+  padding-left: 20px;
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: purple;
+  background-color: hotpink}
+
+nav {
+  grid-column: 4 / 7;
+  grid-row: 1 / 2;
+  background-color: hotpink;
+padding-top: 20px;}
+nav li {display: inline-block;}
+nav li a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: purple;
+  text-decoration: none;
+  padding: 20px;}
+nav li a:hover {
+  color: palevioletred;
+  background-color: white;
+  opacity: .7;}
+
+.box {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  padding: 10px;
+  color: purple;
+  background-color: white;
+  opacity: .7;}
+  main h2 {font-family: Georgia, 'Times New Roman', Times, serif;}
+  main p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  
+.Painting {
+  grid-column: 5 / 6;
+  grid-row: 4 / 7;
+  background: url(Desaturated\ Freyel\ Pixel.png);
+  background-size: cover;
+  border: 3px solid white;}
+  .Painting h2 {
+    font-size: xx-large;
+    color: hotpink;
+    grid-column: 5 / 6;
+    grid-row: 4 / 7;
+    float: right;}
+  .Painting h3 {
+    font-size: xx-large;
+    color: pink;
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+    padding-top: 200px;
+    padding-left: 10px;}  
+
+.Redbird {  
+  grid-column: 2 / 3;
+  grid-row: 6 / 8;
+  background: url(ISU\ Logo\ Pink.jpeg);
+  background-size: cover;
+  border: 3px solid white;}
+  .Redbird h2 {
+    font-size: xx-large;
+    color: hotpink;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    float: right;}
+  .Redbird h3 {
+    font-size: xx-large;
+    color: pink;
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+    padding-top: 125px;
+    padding-left: 10px;}
