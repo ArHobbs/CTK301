@@ -1,0 +1,157 @@
+body {background: rgb(2,0,36); background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(33,19,26,1) 35%, rgba(69,30,49,1) 100%);}
+
+#grid {
+    margin: 12px auto;
+    width: 1200px;
+    display: grid;
+      grid-template-columns: 20px 260px 40px 260px 40px 260px 40px 260px 20px;
+      grid-template-rows: 80px 10px 50px 50px 50px 290px 50px 50px 50px 19px;
+    background-image: url(purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.jpg);
+    background-size: cover;}
+  
+  header {
+    padding-left: 20px;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    font-family: 'Sacramento', cursive;
+    font-size: large;
+    font-style: italic;
+    color: purple;
+    background-color: #e889b8}
+  
+    nav {
+      grid-column: 6 / 10;
+      grid-row: 1 / 2;
+      background-color: #e889b8;}
+    nav li {display: inline-block;}
+    nav li a {padding: 15px;}
+    nav li a:hover {
+      color: mediumvioletred;
+      transition: background-color 0.4s;}
+            #primary_nav_wrap ul a
+            {display:block;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-weight: bold;
+              font-size: larger;
+              color: purple;
+              text-decoration: none;}
+            #primary_nav_wrap ul li
+            {position:relative;
+              float:left;
+              margin:0;
+              padding:0;}
+            #primary_nav_wrap ul li:hover {color: mediumvioletred;
+              background-color: rgba(255, 255, 255, 0.7);
+              transition: background-color 0.4s;}
+            #primary_nav_wrap ul ul
+            {display:none;
+              position:absolute;
+              top:100%;
+              left:0;
+              padding:0;
+              background-color: rgba(255, 255, 255, 0.7);}
+            #primary_nav_wrap ul ul a {line-height:120%;}
+            #primary_nav_wrap ul ul ul {top:0; left:100%;}
+            #primary_nav_wrap ul li:hover > ul {display:block;}
+
+#Denari {
+  background-color: white;
+  text-align: center;
+  grid-column: 2 / 3;
+  grid-row: 6 / 10;
+  width: 260px;
+  height: 290px;
+  border-top: 3px solid #e889b8; border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Denari h3 {
+    padding: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Denari p {
+    padding: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8; border-bottom: 3px solid #e889b8;}
+
+#Cavellina {
+  background-color: white;
+  text-align: center;
+  grid-column: 4 / 5;
+  grid-row: 5 / 9;
+  width: 260px;
+  height: 290px;
+  border-top: 3px solid #e889b8; border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Cavellina h3 {
+    padding: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Cavellina p {
+    padding: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8; border-bottom: 3px solid #e889b8;}
+
+#Freyel {
+  background-color: white;
+  text-align: center;
+  grid-column: 6 / 7;
+  grid-row: 4 / 8;
+  width: 260px;
+  height: 290px;
+  border-top: 3px solid #e889b8; border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Freyel h3 {
+    padding: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Freyel p {
+    padding: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8; border-bottom: 3px solid #e889b8;}
+#Kenny {
+  background-color: white;
+  text-align: center;
+  grid-column: 8 / 9;
+  grid-row: 3 / 7;
+  width: 260px;
+  height: 290px;
+  border-top: 3px solid #e889b8; border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Kenny h3 {
+    padding: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8;}
+  #Kenny p {
+    padding: 10px;
+    margin: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    border-left: 3px solid #e889b8; border-right: 3px solid #e889b8; border-bottom: 3px solid #e889b8;}
+  img {
+    max-width: 260px;
+    max-height: 290px;}
