@@ -58,19 +58,23 @@ nav li a:hover {
   grid-row: 3 / 5;
   padding-left: 10px;
   padding-right: 10px;
+  margin: 0;
   color: purple;
   background-color: white;
   opacity: .7;
-  border-radius: 12px;}
+  border: 3px solid #dd78c2}
   .box h2 {font-family: Georgia, 'Times New Roman', Times, serif;
-          font-size: xx-large;}
+          font-size: xx-large;
+          margin: 15px;}
   .box p {font-family: Verdana, Geneva, Tahoma, sans-serif;
-          font-size: medium;}
+          font-size: medium;
+          margin: 0;
+          padding: 0px 5px 5px 5px;}
   
 .Painting {
   grid-column: 5 / 6;
   grid-row: 4 / 7;
-  background: url(Desaturated\ Freyel\ Pixel.png);
+  background: url(PinkFreyelCropped.png);
   background-size: cover;
   border: 3px solid white;
   border-top-left-radius: 20px;
@@ -88,12 +92,12 @@ nav li a:hover {
 .Redbird {  
   grid-column: 2 / 3;
   grid-row: 6 / 8;
-  background: url(ISU\ Logo\ Pink.jpeg);
+  background: url(pic.jpg);
   background-size: cover;
   border: 3px solid white;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;}
-  .Redbird h3 {
+  .Redbird h3 a {
     font-size: xx-large;
     text-shadow: 2px 2px 4px black;
     color: #ffbbed;
