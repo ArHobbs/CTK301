@@ -1,0 +1,109 @@
+body {background: rgb(111,52,98);
+  background: linear-gradient(0deg, rgba(111,52,98,1) 0%, rgba(17,6,43,1) 100%);}
+
+#grid {
+  margin: 12px auto;
+  width: 1200px;
+  display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr 4fr 1fr;
+    grid-template-rows: 80px 70px 70px 165px 60px 100px 100px 50px;
+  background-image: url(purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.jpg);
+  background-size: cover;}
+
+header {
+  padding-left: 20px;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  font-family: 'Sacramento', cursive;
+  font-size: large;
+  font-style: italic;
+  color: purple;
+  background-color: #dd78c2;}
+
+nav {
+  grid-column: 4 / 7;
+  grid-row: 1 / 2;
+  padding-left: 120px;
+  background-color: #dd78c2;}
+nav li {display: inline-block;}
+nav li a {padding: 15px;}
+nav li a:hover {
+  color: mediumvioletred;
+  transition: background-color 0.4s;}
+        #primary_nav_wrap ul a
+            {display:block;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-weight: bold;
+              font-size: larger;
+              color: purple;
+              text-decoration: none;}
+            #primary_nav_wrap ul li
+            {position:relative;
+              float:left;
+              margin:0;
+              padding:0;}
+            #primary_nav_wrap ul li:hover {color: mediumvioletred;
+              background-color: rgba(255, 255, 255, 0.7);
+              transition: background-color 0.4s;}
+            #primary_nav_wrap ul ul
+            {display:none;
+              position:absolute;
+              top:100%;
+              left:0;
+              padding:0;
+              background-color: rgba(255, 255, 255, 0.7);}
+            #primary_nav_wrap ul ul a {line-height:120%;}
+            #primary_nav_wrap ul ul ul {top:0; left:100%;}
+            #primary_nav_wrap ul li:hover > ul {display:block;}
+.box {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  color: purple;
+  background-color: white;
+  opacity: .7;
+  border: 3px solid #eea2da}
+  .box h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: xx-large;
+          margin: 15px;}
+  .box p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: medium;
+          margin: 0;
+          padding: 0px 10px 5px 10px;}
+  
+.Painting {
+  grid-column: 5 / 6;
+  grid-row: 4 / 7;
+  background: url(PinkFreyelCropped.png);
+  background-size: cover;
+  border: 3px solid #eea2da;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;}
+  .Painting h3 a {
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px black;
+    color: #ffbbed;
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+    float: right;
+    margin-top: 250px;
+    padding-right: 10px;}  
+
+.AboutMe {  
+  grid-column: 2 / 3;
+  grid-row: 6 / 8;
+  background: url(Practicecropped.png);
+  background-size: cover;
+  border: 3px solid #ffbbed;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;}
+  .AboutMe h3 a {
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px black;
+    color: #ffbbed;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    float: left;
+    padding-left: 10px;}  

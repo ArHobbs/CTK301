@@ -1,0 +1,135 @@
+body {background: rgb(111,52,98);
+  background: linear-gradient(0deg, rgba(111,52,98,1) 0%, rgba(17,6,43,1) 100%);}
+
+#grid {
+    margin: 12px auto;
+    width: 1200px;
+    display: grid;
+      grid-template-columns: 20px 260px 40px 260px 40px 260px 40px 260px 20px;
+      grid-template-rows: 80px 10px 50px 50px 50px 290px 50px 50px 50px 19px;
+    background-image: url(purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.jpg);
+    background-size: cover;}
+  
+  header {
+    padding-left: 20px;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    font-family: 'Sacramento', cursive;
+    font-size: large;
+    font-style: italic;
+    color: purple;
+    background-color: #dd78c2}
+  
+    nav {
+      grid-column: 6 / 10;
+      grid-row: 1 / 2;
+      background-color: #dd78c2;
+      padding-left: 100px;}
+    nav li {display: inline-block;}
+    nav li a {padding: 15px;}
+    nav li a:hover {
+      color: mediumvioletred;
+      transition: background-color 0.4s;}
+            #primary_nav_wrap ul a
+            {display:block;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-weight: bold;
+              font-size: larger;
+              color: purple;
+              text-decoration: none;}
+            #primary_nav_wrap ul li
+            {position:relative;
+              float:left;
+              margin:0;
+              padding:0;}
+            #primary_nav_wrap ul li:hover {color: mediumvioletred;
+              background-color: rgba(255, 255, 255, 0.7);
+              transition: background-color 0.4s;}
+            #primary_nav_wrap ul ul
+            {display:none;
+              position:absolute;
+              top:100%;
+              left:0;
+              padding:0;
+              background-color: rgba(255, 255, 255, 0.7);}
+            #primary_nav_wrap ul ul a {line-height:120%;}
+            #primary_nav_wrap ul ul ul {top:0; left:100%;}
+            #primary_nav_wrap ul li:hover > ul {display:block;}
+#ArtStation {
+  background-color: #dd78c2;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;}
+    #ArtStation a {
+      display: block;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      color: purple;
+      text-decoration: none;
+      text-align: center;
+      font-size: large;
+      padding: 12px; padding-bottom: 16px;}
+    #ArtStation a:hover {color: mediumvioletred;
+      background-color: rgba(255, 255, 255, 0.7);
+      transition: background-color 0.4s;}
+
+.f-carousel__slide {border-top-left-radius: 20px;
+  border-top: 3px solid #eea2da; border-left: 3px solid #eea2da; border-right: 3px solid #eea2da;}
+
+.f-carousel h3 { 
+  padding: 5px;
+  padding-top: 25px;
+  padding-left: 10px;
+  margin: 0px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  border-left: 3px solid #eea2da; border-right: 3px solid #eea2da;}
+.f-carousel p {
+  padding: 10px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  border-left: 3px solid #eea2da; border-right: 3px solid #eea2da; border-bottom: 3px solid #eea2da;
+  border-bottom-right-radius: 20px;}
+
+#Denari {
+  background-color: white;
+  text-align: center;
+  grid-column: 2 / 3;
+  grid-row: 6 / 10;
+  width: 260px;
+  height: 290px;
+  border-top-left-radius: 20px;}
+
+#Cavellina {
+  background-color: white;
+  text-align: center;
+  grid-column: 4 / 5;
+  grid-row: 5 / 9;
+  width: 260px;
+  height: 290px;
+  border-top-left-radius: 20px;}
+ 
+#Freyel {
+  background-color: white;
+  text-align: center;
+  grid-column: 6 / 7;
+  grid-row: 4 / 8;
+  width: 260px;
+  height: 290px;
+  border-top-left-radius: 20px;}
+  
+#Kenny {
+  background-color: white;
+  text-align: center;
+  grid-column: 8 / 9;
+  grid-row: 3 / 7;
+  width: 260px;
+  height: 290px;
+  border-top-left-radius: 20px;}
+  
+.f-carousel__slide img {Width: 100%;
+  border-top-left-radius: 18px;}

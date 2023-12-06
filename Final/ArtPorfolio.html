@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Personal Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<link href="ArtPortfolio.css" rel="stylesheet" type="text/css">
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+		<link rel="stylesheet" href="ArtPortfolio.css">
+			</head>
+<body>
+<div id="grid">
+	<header> <h1>Amy Hobbs</h1> </header>
+		
+<div id="ArtStation">
+	<a href="https://www.artstation.com/mildia" target="blank">Follow me on ArtStation!</a>
+</div>		
+		
+<div id="Denari" class="f-carousel">
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/DenariFinal.jpg"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/DenariThumb.jpg"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/DenariUnedited.jpg"></div>	
+	<h3>Denari, The Worst case Scenario</h3>
+    <p>A lone druid from a vast desert, trying to find her place in the world. Done on graphite as a lighting and anatomy study.</p>
+	</div> 
+
+<div id="Cavellina" class="f-carousel">
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Cavellina Starsable.png"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/1.png"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Cavellina Starsable 1.png"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Cavellina Starsable 2.png"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Cavellina Starsable 3.png"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Cavellina Starsable 5.png"></div>
+	<h3>Cavellina Starsable</h3>
+    <p>The charismatic Moon Elf charming patrons of a tavern. Digital 2D done in Photoshop.</p>
+	</div> 
+<div id="Freyel" class="f-carousel">
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/IMG_4994.jpg"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Freyel1.JPG"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Freyel2.JPG"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Freyel3.jpg"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Freyel4.JPG"></div>
+	<h3>Freyel, The Primangel</h3>
+    <p>Painting of Freyel, the Primangel of life, fertility, and beauty. Done in watercolor for my Art 104 final project back in 2022.</p>
+	</div> 
+<div id="Kenny" class="f-carousel">
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/KennyFinal.jpg"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Kenny.png"></div>
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Birthday5s.jpg"></div>	
+	<div class="f-carousel__slide"><img src="Portfolio Pictures/Birthday7.jpg"></div>	
+	<h3>A Wizard and His Dragon</h3>
+    <p>A birthday gift for one of my Dungeon Masters. Digital 2D done in Photoshop.</p>
+	</div> 
+
+
+	<nav id="primary_nav_wrap">
+		<ul>
+		<li class="current-menu-item"><a href="Home.html">Home</a></li>
+		<li><a href="#">Portfolios</a>
+			<ul>
+				<li><a href="ArtPorfolio.html">Personal Art</a></li>
+				<li><a href="https://www.artstation.com/mildia" target="_blank">ArtStation</a></li>
+			</ul>
+		<li><a href="Contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+
+	<script>
+		const container = document.getElementById("Denari");
+		const options = { infinite: true };
+		new Carousel(container, options);
+
+		const container2 = document.getElementById("Cavellina");
+		const options2 = { infinite: true };
+		new Carousel(container2, options2);
+
+		const container3 = document.getElementById("Freyel");
+		const options3 = { infinite: true };
+		new Carousel(container3, options3);
+
+		const container4 = document.getElementById("Kenny");
+		const options4 = { infinite: true };
+		new Carousel(container4, options4);
+	</script>
+</div>
+</body>
+</html>
